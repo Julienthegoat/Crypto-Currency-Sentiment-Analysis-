@@ -1,5 +1,7 @@
-streamlit
-pandas
-matplotlib
-transformers
-praw
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer, TextClassificationPipeline
+from praw import Reddit
+import datetime
+import time
