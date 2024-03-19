@@ -21,42 +21,40 @@ This project utilizes Streamlit to create a web application that analyzes the se
 
 1. **Clone the repository**:
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-````
-This command will install all necessary Python packages including Streamlit, Pandas, Matplotlib, Transformers, and PRAW.
+    ```bash
+    git clone https://github.com/your-username/your-repository-name.git
+    cd your-repository-name
+    ```
 
-Run the Streamlit app:
-````bash
-Copy code
-streamlit run app.py
-````
-Replace app.py with the name of your main Python script.
+2. **Install the required dependencies**:
 
-#Configuration
-Before using the app, you'll need to configure your Reddit API credentials. Edit the reddit object initialization in the code with your client_id, client_secret, and user_agent.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-python
-Copy code
-reddit = Reddit(client_id='your_client_id',
-                client_secret='your_client_secret',
-                user_agent='your_user_agent')
-#How to Use
-Navigate through the app using the sidebar to choose between different analysis options. Enter the required information based on your selection and click the "Analyze Sentiment" button to view the results.
+    This command will install all necessary Python packages including Streamlit, Pandas, Matplotlib, Transformers, and PRAW.
 
-#Contribution
-Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
+3. **Run the Streamlit app**:
 
-#License
-MIT
+    ```bash
+    streamlit run app.py
+    ```
 
-#Acknowledgements
-This project uses CryptoBERT, a pre-trained NLP model for cryptocurrency sentiment analysis, developed by ElKulako. Reference: ElKulako (2022). CryptoBERT: A Pre-trained NLP Model for Cryptocurrency Sentiment Analysis. IEEE Explore.
+    Replace `app.py` with the name of your main Python script.
 
-#Disclaimer
-This project is for informational purposes only and should not be considered financial advice.
+
+
+## How to Use
+Use the sidebar to navigate through the app and select from various analysis options. Input the necessary details according to your chosen option and click the "Analyze Sentiment" button to get the analysis results.
+
+## Contribution
+We welcome contributions! If you're interested in contributing, please fork the repository and use a feature branch for your developments. Pull requests are greatly appreciated.
+
+## License
+This project is made available under the MIT License.
+
+Acknowledgements
+Our project leverages CryptoBERT, a specialized NLP model for analyzing cryptocurrency sentiment, created by ElKulako. For more information, see: ElKulako (2022), "CryptoBERT: A Pre-trained NLP Model for Cryptocurrency Sentiment Analysis," available on IEEE Xplore.
+
+Disclaimer
+This software is provided for informational purposes only and should not be used as financial advice.
