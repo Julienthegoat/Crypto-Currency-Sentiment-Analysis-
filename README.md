@@ -47,8 +47,8 @@ This project utilizes Streamlit to create a web application that analyzes the se
 ## How to Use
 Use the sidebar to navigate through the app and select from various analysis options. Input the necessary details according to your chosen option and click the "Analyze Sentiment" button to get the analysis results.
 
-## Contribution
-Avalanche 🔺 Adress for Contributiuons : 
+## Avalanche 🔺 Adress for Contributiuons : 
+
 ````bash
 0xe5d5D0078E3a5afE22727F9c16dc545Ae3CA0046
 ````
